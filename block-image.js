@@ -1,3 +1,6 @@
 <script type="text/javascript" charset="utf-8">
-    $(document).ready( function() { $("img").removeAttr("src"); } );
+var images = document.getElementsByTagName('img');
+for (i = 0; i < images.length;i++ ) {
+    images[i].style.display = "none";
+}
 </script>
